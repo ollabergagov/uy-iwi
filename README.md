@@ -1,6 +1,5 @@
 # uy-iwi
-1.13 Kvadrat tenglama ildizlari
-import math
+1.13
 
 a = float(input("a = "))
 b = float(input("b = "))
@@ -17,14 +16,14 @@ elif D == 0:
 else:
     print("Haqiqiy ildiz yo‘q")
 
-1.14 Kg ↔️ funt
+1.14
 kg = float(input("Kg: "))
 print("Funt:", kg * 2.20462)
 
 funt = float(input("Funt: "))
 print("Kg:", funt / 2.20462)
 
-1.15 Bank foizi (5 yil)
+1.15 
 pul = float(input("Boshlang‘ich pul: "))
 foiz = float(input("Yillik foiz (%): "))
 
@@ -33,13 +32,13 @@ for i in range(5):
 
 print("5 yildan keyin:", pul)
 
-1.16 Uch xonali son raqamlari
+1.16 
 n = int(input("3 xonali son: "))
 print("Yuzlik:", n//100)
 print("O‘nlik:", (n//10)%10)
 print("Birlik:", n%10)
 
-1.17 Soat va daqiqa
+1.17 
 soat = int(input("Soat: "))
 daq = int(input("Daqiqa: "))
 
@@ -51,33 +50,33 @@ b = float(input())
 c = float(input())
 print((a+b+c)/3)
 
-1.19 1 dan N gacha yig‘indi
+1.19 
 N = int(input("N: "))
 print(N*(N+1)//2)
 
-1.20 4 ta sondan juftlari
+1.20 
 for i in range(4):
     x = int(input())
     if x % 2 == 0:
         print(x)
 
-1.21 Kvadrat va kub
+1.21
 n = int(input())
 print("Kvadrat:", n**2)
 print("Kub:", n**3)
 
-1.22 Talabaning o‘rtacha bahosi
+1.22 
 b1 = int(input())
 b2 = int(input())
 b3 = int(input())
 print("O‘rtacha:", (b1+b2+b3)/3)
 
-1.23 Doira uzunligi
+1.23 
 import math
 r = float(input("Radius: "))
 print(2 * math.pi * r)
 
-1.24 Masofa (v₀, a, t)
+1.24 
 v0 = float(input())
 a = float(input())
 t = float(input())
@@ -85,14 +84,14 @@ t = float(input())
 s = v0*t + (a*t*t)/2
 print(s)
 
-1.25 To‘g‘ri to‘rtburchak
+1.25 
 a = float(input())
 b = float(input())
 
 print("Perimetr:", 2*(a+b))
 print("Yuza:", a*b)
 
-1.26 N sekunddan keyin vaqt
+1.26
 N = int(input("Sekund: "))
 
 soat = (N // 3600) % 24
@@ -100,7 +99,7 @@ minut = (N % 3600) // 60
 
 print(soat, ":", minut)
 
-1.27 2 xonali sonni solishtirish
+1.27 
 n = int(input())
 teskari = (n%10)*10 + n//10
 
@@ -109,11 +108,11 @@ if n == teskari:
 else:
     print("Teng emas")
 
-1.28 4 ga karralimi
+1.28 
 n = int(input())
 print(n % 4 == 0)
 
-1.29 3 xonali son o‘sish tartibida
+1.29 
 n = int(input())
 a = n//100
 b = (n//10)%10
@@ -121,7 +120,7 @@ c = n%10
 
 print(a < b < c)
 
-1.30 Ikki vaqt oralig‘i
+1.30 
 h1, m1 = map(int, input("1-vaqt (soat daqiqa): ").split())
 h2, m2 = map(int, input("2-vaqt (soat daqiqa): ").split())
 
